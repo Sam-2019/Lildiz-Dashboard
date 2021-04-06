@@ -1,0 +1,14 @@
+.iconWrapper {
+  padding: 0 0 10px 0;
+}
+
+.icon {
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.icon:hover {
+  color: #ff2f00;
+  border-radius: 30%;
+  background-color: rgb(255, 255, 255);
+}
