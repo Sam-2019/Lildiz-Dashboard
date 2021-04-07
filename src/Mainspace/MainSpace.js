@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Appointment from "../Appointment/Appointment";
+import Contact from "../Contact/Contact";
 import "./mainspace.css";
 
 const Container = styled.div`
@@ -115,14 +117,40 @@ const MainSpace = () => {
       </div>
 
       <div>
-        <div         style={{
-          display: "flex",
-          justifyContent: "space-between",
-          padding: "15px 0",
-          borderBottom: "1px solid gray",
-        }}>
-          <div>Meet Friends <span>September 2019</span>  </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "15px 0",
+            borderBottom: "1px solid gray",
+          }}
+        >
+          <div>
+            Meet Friends <span>September 2019</span>{" "}
+          </div>
           <div>Icon</div>
+        </div>
+
+        <div>
+          <Appointment />
+        </div>
+      </div>
+
+      <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "15px 0",
+            borderBottom: "1px solid gray",
+          }}
+        >
+          <div>Support Contacts </div>
+          <div>Icon</div>
+        </div>
+
+        <div>
+          <Contact />
         </div>
       </div>
     </Container>
