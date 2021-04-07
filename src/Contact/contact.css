@@ -1,0 +1,35 @@
+.contact_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contact_header {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.contact_header_image {
+  display: flex;
+}
+
+.contact_header_profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.constact_body_item {
+  display: flex;
+}
+
+.contact_body_button {
+  width: 100%;
+  border: 1px solid red;
+  text-align: center;
+}
