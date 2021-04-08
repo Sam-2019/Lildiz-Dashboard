@@ -1,23 +1,14 @@
-.contact_wrapper {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  background-color: white;
-}
-
 .contact_header {
   display: flex;
   align-items: center;
-  border: 1px solid red;
+  border-bottom: 1px solid #bababa;
+  padding: 0 0 10px 0;
 }
 
-.contact_header_image {
-  display: flex;
-}
-
-.user_image{
-  border-radius: 10px;
-  width:50px;
+.user_image {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
@@ -26,17 +17,9 @@
   flex-direction: column;
 }
 
-.contact_body {
-  display: flex;
-  flex-direction: column;
-}
-
-.constact_body_item {
-  display: flex;
-}
-
-.contact_body_button {
-  width: 100%;
-  border: 1px solid red;
+.body_button {
+  border: 1px solid #bababa;
   text-align: center;
+  border-radius: 5px;
+  padding: 10px 0px;
 }

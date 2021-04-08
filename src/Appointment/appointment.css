@@ -1,27 +1,42 @@
-.appointment_wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-.appointment_header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
+  border-bottom: 1px solid #bababa;
+  padding: 0 0 10px 0;
 }
 
-.appointment_name {
-}
 
-.appointment_chevonRight {
-}
-
-.appointment_body {
+.body {
   display: flex;
   flex-direction: column;
 }
 
-.appointment_item {
+.body_item {
   display: flex;
+  align-items: center;
+  padding: 5px 0 0 0;
+}
+
+.body_text {
+}
+
+.margin-spacer-right {
+  margin: 0 10px 0 0;
+}
+
+.margin-spacer-bottom {
+  margin: 0 0 10px 0;
+}
+
+.colored {
+  color: #ff2f00;
 }
